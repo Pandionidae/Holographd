@@ -1,5 +1,6 @@
 while true
 do
+        printf "Start"
         date=$(date +"%H:%M")
         echo Last Update: ${date}
         for((m=0; m<1; m++))
