@@ -5,29 +5,31 @@ do
         for((m=0; m<1; m++))
         do
         sudo systemctl restart holographd
-                printf "wait 3 hours;"
+                printf "restart after 3 hours"
                 printf "\n"
                 sleep 60m
-                printf "wait 2 hours;"
+                printf "restart after 2 hours"
                 printf "\n"
                 sleep 60m
-                printf "wait 1 hours;"
+                printf "restart after 1 hours"
                 printf "\n"
                 sleep 30m
-                printf "wait 30 minutes;"
+                printf "restart after 30 minutes"
                 printf "\n"
                 sleep 15m
-                printf "wait 15 minutes;"
+                printf "restart after 15 minutes"
                 printf "\n"
                 sleep 5m
-                printf "wait 10 minutes;"
+                printf "restart after 10 minutes"
                 printf "\n"
                 sleep 5m
-                printf "wait 5 minutes;"
+                printf "restart after 5 minutes"
                 printf "\n"
                 sleep 2m
-                printf "wait 3 minutes;"
+                printf "restart after 3 minutes"
+                printf "\n"
                 sleep 3m
         done
+        printf "restart holographd"
         printf "\n"
 done
